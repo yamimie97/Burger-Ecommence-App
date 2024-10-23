@@ -1,0 +1,105 @@
+
+/* Container for the review page */
+.review-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Cart Summary Styling */
+.review-container .cart-summary {
+    flex: 0 0 45%; /* Fixed width at 45% */
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.review-container .cart-summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.review-container .cart-summary p:nth-child(6) {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: none;
+}
+
+.review-container .cart-summary th, .cart-summary td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.review-container .cart-summary img {
+    width: 60px;
+    height: auto;
+}
+
+.review-container .cart-summary p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Delivery and Payment Info Styling */
+.details-container {
+    flex: 0 0 45%; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.delivery-info, .payment-info {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.delivery-info p, .payment-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Button Section */
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button.complete-btn, .back-btn {
+    background-color: teal;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 60%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button.complete-btn:hover, .back-btn:hover {
+    background-color: #004d4d;
+}
+
+.back-btn {
+    display: inline-block;
+    text-align: center;
+}
+
+/* Responsive layout */
+@media (max-width: 1275px) {
+    .review-container {
+        flex-direction: column;
+    }
+
+    .cart-summary, .details-container {
+        width: 100%;
+        margin-right: 0;
+    }
+}

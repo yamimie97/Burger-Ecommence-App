@@ -1,0 +1,102 @@
+/* style.css */
+body {
+    background-color: #ffffff; /* White background */
+    color: #00796b; /* Teal for text */
+}
+
+.card {
+    border-radius: 20px;
+    background-color: #ffffff; /* White card background */
+}
+
+.card-header {
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+    background-color: #00796b; /* Teal header */
+    color: white; /* White text */
+}
+
+h3 {
+    margin: 0;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #00796b; /* Teal border */
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: #00796b; /* Teal button background */
+    color: white; /* White text */
+    border: none;
+}
+
+.btn:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+.text-teal {
+    color: #00796b; /* Teal text for login link */
+}
+
+.text-teal:hover {
+    color: #004d40; /* Darker teal on hover */
+}
+.dropdown-subcategories {
+    display: none;
+}
+.dropdown.show .dropdown-subcategories {
+    display: block;
+}
+
+/* Style for the subcategories' background color and hover effect */
+.collapse .dropdown-item {
+    background-color: #e0f2f1; /* Light teal background color for subcategories */
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.collapse .dropdown-item:hover {
+    background-color: #004d40; /* Darker teal on hover */
+    color: white; /* White text on hover */
+}
+
+.btn-teal {
+    background-color: #00796b; /* Teal button */
+    color: white;
+}
+.btn-teal:hover {
+    background-color: #004d40; /* Darker teal */
+    color: white;
+}
+
+/* Logout link styling */
+.logout-link {
+    color: #00796b;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.logout-link:hover {
+    color: #004d40;
+}
+
+@media (max-width: 1040px) {
+    .container {
+        margin-top: 20px;
+    }
+
+    .btn-block {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1040px) {
+    .container {
+        margin-top: 50px;
+    }
+
+    .btn-block {
+        font-size: 16px;
+    }
+}

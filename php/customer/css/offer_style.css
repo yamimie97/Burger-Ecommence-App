@@ -1,0 +1,147 @@
+/* offer section */
+.offer_section {
+    position: relative;
+    padding-top: 45px;
+  }
+  
+  .offer_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 45px;
+    border-radius: 5px;
+    padding: 20px 15px;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer_section .box .img-box {
+    width: 175px;
+    min-width: 175px;
+    height: 175px;
+    margin-right: 15px;
+    position: relative;
+    -webkit-transition: all 0.1 0.5s;
+    transition: all 0.1 0.5s;
+    border-radius: 100%;
+    border: 5px solid rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  
+  .offer_section .box .img-box img {
+    width: 100%;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  
+  .offer_section .box .detail-box h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .offer_section .box .detail-box h6 {
+    font-family: 'Dancing Script', cursive;
+    margin: 10px 0;
+  }
+  
+  .offer_section .box .detail-box h6 span {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .offer_section .box .detail-box a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+  }
+  
+  .offer_section .box .detail-box a:hover {
+    background-color: #2b97a6;
+  }
+  
+  .offer_section .box .detail-box a svg {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    fill: #ffffff;
+  }
+  .offer_section .box:hover{
+    border: 2px solid #000;
+  }
+  .offer_section .box:hover .img-box,
+  .offer_section .box:hover .img-box img {
+    border: 3px solid #2b97a6;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    
+  }
+/* menu section */
+/* General Styles */
+.menu-section {
+  padding: 40px 0;
+}
+
+.menu-items .menu-item {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items .menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.menu-items .menu-item h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.menu-items .menu-item span {
+  font-size: 16px;
+  color: #000;
+}
+
+/* View More Button */
+.text-center .btn-primary {
+  background-color: teal;
+  border-color: teal;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.text-center .btn-primary:hover {
+  background-color: #006d6d;
+  border-color: #006d6d;
+}
+
+/* Responsive Grid */
+@media (min-width: 992px) {
+  .menu-items .col-lg-4 {
+      margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-items .menu-item {
+      margin: 15px 0;
+  }
+}
