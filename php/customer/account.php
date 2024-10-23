@@ -1,6 +1,6 @@
 <?php
 include 'header.php'; // Include header
-include 'db.php';     // Database connection
+include 'db.php';     // Database connection to dd
 
 // Simulate logged-in customer ID
 $customerID = isset($_SESSION['customerId']) ? $_SESSION['customerId'] : 'cusID-0001';

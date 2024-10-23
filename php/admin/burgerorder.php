@@ -1,7 +1,7 @@
 <?php
 include 'sessioncheck.php'; // Check session staff
 
-// Initialize the search query
+// Initialize the search query here
 $searchQuery = "";
 
 // Check if a search query is provided
