@@ -1,5 +1,5 @@
 <?php
-include 'sessioncheck.php'; // Check session staff
+include 'sessioncheck.php'; // Check session staff info
 
 // Initialize the search query here
 $searchQuery = "";
